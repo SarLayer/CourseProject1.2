@@ -19,7 +19,8 @@ public class Guest extends HttpServlet {
             for (int i = 1; i <= Logic.getCount(); i++) {
                 request.setAttribute("status" + i, i + Logic.getElement(i));
             }
-            request.setAttribute("name", LoginRegister.customer.getLogin());
+            
+            request.setAttribute("guestName", LoginRegister.customer.getLogin());
             request.getRequestDispatcher("welcome.jsp").forward(request, response);
         }
 

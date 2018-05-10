@@ -56,9 +56,9 @@ public class LoginRegister extends HttpServlet {
                     request.setAttribute("priceOfBalls","Price of Balls "+String.format("%.2f",Counter.countPriceOfBall(Logic.getDictionary())));
                     request.setAttribute("priceOfCandies","Price of Candies "+String.format("%.2f",Counter.countPriceOfCandy(Logic.getDictionary())));
                     request.setAttribute("priceOfFlashlights","Price of Flashlights "+String.format("%.2f",Counter.countPriceOfFlashLight(Logic.getDictionary())));
-                    request.setAttribute("percentOfBalls","Percent of Balls "+String.format("%.2f",Counter.countPercentOfCandy(Logic.getDictionary())));
+                    request.setAttribute("percentOfBalls","Percent of Balls "+String.format("%.2f",Counter.countPercentOfBall(Logic.getDictionary())));
                     request.setAttribute("percentOfCandies","Percent of Candies "+String.format("%.2f",Counter.countPercentOfCandy(Logic.getDictionary())));
-                    request.setAttribute("percentOfFlashlights","Percent of Flashlight "+String.format("%.2f",Counter.countPercentOfBall(Logic.getDictionary())));
+                    request.setAttribute("percentOfFlashlights","Percent of Flashlight "+String.format("%.2f",Counter.countPercentOfFlashlight(Logic.getDictionary())));
                     request.getRequestDispatcher("welcome.jsp").forward(request, response);
                 } else {
                     request.setAttribute("message", "Data Not Found");

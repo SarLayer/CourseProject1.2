@@ -42,13 +42,19 @@
 </div>
 
 <div class = Information>
+    <h1> </h1>
+    <h1> </h1>
     <h1> ${searchpriceOfTree}</h1>
     <h1> ${searchpriceOfBalls}</h1>
     <h1> ${searchpriceOfCandies}</h1>
     <h1> ${searchpriceOfFlashlights}</h1>
     <h1> ${searchpercentOfBalls}</h1>
     <h1> ${searchpercentOfCandies}</h1>
-    <h1> ${searchpercentOfFalshlights}</h1>
+    <h1> ${searchpercentOfFlashlights}</h1>
+</div>
+<div class = InfAboutTree>
+    <h1>  Information about tree</h1>
+
 </div>
 
 <div class = SearchPictures1>

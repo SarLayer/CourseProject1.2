@@ -183,6 +183,25 @@ body{
 
 }
 
+.InfAboutTree{
+    width: 200px;
+    height:80px;
+    top: 12%;
+    left:30%;
+    position: absolute;
+    background: #5314c4;
+    border-radius: 20px;
+}
+.InfAboutTree h1{
+
+    font-size: 20px;
+    position: center;
+    top: 0%;
+    text-align: center;
+    color: #f2fbed;
+
+}
+
 /*.Choice input[type = "submit"]
 {
     top: 10px;
@@ -328,10 +347,10 @@ body{
 
 }
 .Information{
-    top:12%;
+    top:20%;
     left:30%;
     width:200px;
-    height:500px;
+    height:350px;
     position: absolute;
     background: #ea2022;
     border-radius: 20px;
@@ -340,9 +359,10 @@ body{
 .Information h1{
 
     font-size: 15px;
-    top: 0%;
+    top: 10%;
     text-align: center;
     color: #f2fbed;
+    position: relative;
 
 }
 

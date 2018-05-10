@@ -56,7 +56,8 @@
     </div>
 
     <div class = Information>
-        <h1>Information about tree</h1>
+        <h1> </h1>
+        <h1> </h1>
         <h1> ${priceOfTree}</h1>
         <h1> ${priceOfBalls}</h1>
         <h1> ${priceOfCandies}</h1>
@@ -64,6 +65,10 @@
         <h1> ${percentOfBalls}</h1>
         <h1> ${percentOfCandies}</h1>
         <h1> ${percentOfFlashlights}</h1>
+    </div>
+    <div class = InfAboutTree>
+    <h1>  Information about tree</h1>
+
     </div>
 
 
@@ -85,6 +90,7 @@
         <h1>  Make your choice</h1>
 
     </div>
+
 
     <div class = Pictures1>
 
