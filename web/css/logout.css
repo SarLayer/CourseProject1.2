@@ -328,17 +328,18 @@ body{
 
 }
 .Information{
-    top:10%;
-    left:23%;
-    width:400px;
+    top:12%;
+    left:30%;
+    width:200px;
     height:500px;
     position: absolute;
-    background: red;
+    background: #ea2022;
+    border-radius: 20px;
 }
 
 .Information h1{
 
-    font-size: 10px;
+    font-size: 15px;
     top: 0%;
     text-align: center;
     color: #f2fbed;
