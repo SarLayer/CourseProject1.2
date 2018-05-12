@@ -100,8 +100,8 @@ public class Dec extends HttpServlet {
                 }
             }
             System.out.println("qwe");
-
-            for (int i = 1; i <=  LoginRegister.logic.getCount(); i++) {
+    
+            for (int i = 1; i <= LoginRegister.logic.getMaxCount(); i++) {
                 request.setAttribute("status" + i, i +  LoginRegister.logic.getElement(i));
                 System.out.println(LoginRegister.logic.getElement(i));
             }

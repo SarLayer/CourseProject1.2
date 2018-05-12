@@ -169,7 +169,7 @@ body{
     top: 12%;
     left:4%;
     position: absolute;
-    background: #5314c4;
+    background: blue;
     border-radius: 20px;
 }
 
@@ -189,7 +189,7 @@ body{
     top: 12%;
     left:30%;
     position: absolute;
-    background: #5314c4;
+    background: blue;
     border-radius: 20px;
 }
 .InfAboutTree h1{
