@@ -59,7 +59,7 @@ public class Dec extends HttpServlet {
                 String guestName = request.getParameter("search");
                 LoginRegister.logic.clearSearchDictionary();
                 if (guestName.equals(LoginRegister.customer.getLogin())){
-                    request.setAttribute("SearchYourselfOrAbsent", "Are you seriously???");
+                    request.setAttribute("SearchYourselfOrAbsent", "It is you!");
 
                 }
                 else if (cd.Search(guestName)) {
@@ -116,7 +116,7 @@ public class Dec extends HttpServlet {
 
             request.getRequestDispatcher("welcome.jsp").forward(request, response);
         } else {
-            request.setAttribute("message", "Get the fuck out");
+            request.setAttribute("message", "Authorized please!!!");
             request.getRequestDispatcher("login.jsp").forward(request, response);
         }
 
