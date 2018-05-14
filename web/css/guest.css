@@ -1,5 +1,5 @@
-body{
-    margin :0;
+body {
+    margin: 0;
     padding: 0;
     background: url(../pictures/back.jpg);
     background-size: cover;
@@ -8,47 +8,40 @@ body{
 
 }
 
-.logout
-{
+.logout {
     width: 1350px;
     height: 40px;
     background: #ea2022;
     color: #fff;
     top: 0px;
-    left:0px;
+    left: 0px;
     position: absolute;
 
 }
 
-.logout1
-{
+.logout1 {
 
     color: #fff;
     top: 0px;
-    left:1200px;
+    left: 1200px;
     position: absolute;
     font-size: 30px;
 
 }
 
-
-.tree
-{
+.tree {
     width: 1px;
     height: 500px;
 
-
     top: 50%;
-    left:60%;
+    left: 60%;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 
-    padding: 70px 30px ;
+    padding: 70px 30px;
 }
 
-
-
-.xMass{
+.xMass {
     width: 400px;
     height: 600px;
 
@@ -56,17 +49,18 @@ body{
 
     left: calc(50% - 50px);
 }
-.Information{
-    top:20%;
-    left:20%;
-    width:200px;
-    height:350px;
+
+.Information {
+    top: 20%;
+    left: 20%;
+    width: 200px;
+    height: 350px;
     position: absolute;
     background: #ea2022;
     border-radius: 20px;
 }
 
-.Information h1{
+.Information h1 {
 
     font-size: 15px;
     top: 10%;
@@ -76,16 +70,17 @@ body{
 
 }
 
-.InfAboutTree{
+.InfAboutTree {
     width: 200px;
-    height:80px;
+    height: 80px;
     top: 12%;
-    left:20%;
+    left: 20%;
     position: absolute;
     background: #5314c4;
     border-radius: 20px;
 }
-.InfAboutTree h1{
+
+.InfAboutTree h1 {
 
     font-size: 20px;
     position: center;
@@ -95,25 +90,22 @@ body{
 
 }
 
-.UserName
-{
+.UserName {
     height: 500px;
     width: 100px;
-
-    top:20px;
-    left:50%;
+    top: 20px;
+    left: 50%;
     position: absolute;
 
 }
 
-.UserName h1
-{
+.UserName h1 {
     font-size: 30px;
-color:white;
+    color: white;
     z-index: 101;
 }
 
-.SearchPictures1 img{
+.SearchPictures1 img {
     width: 40px;
     height: 40px;
     top: 24%;
@@ -122,7 +114,7 @@ color:white;
 
 }
 
-.SearchPictures2 img{
+.SearchPictures2 img {
     width: 40px;
     height: 40px;
     top: 34%;
@@ -130,7 +122,7 @@ color:white;
     position: absolute;
 }
 
-.SearchPictures3 img{
+.SearchPictures3 img {
     width: 40px;
     height: 40px;
     top: 41%;
@@ -139,7 +131,7 @@ color:white;
 
 }
 
-.SearchPictures4 img{
+.SearchPictures4 img {
     width: 40px;
     height: 40px;
     top: 49%;
@@ -147,7 +139,8 @@ color:white;
     position: absolute;
 
 }
-.SearchPictures5 img{
+
+.SearchPictures5 img {
     width: 40px;
     height: 40px;
     top: 53%;
@@ -155,7 +148,8 @@ color:white;
     position: absolute;
 
 }
-.SearchPictures6 img{
+
+.SearchPictures6 img {
     width: 40px;
     height: 40px;
     top: 57%;
@@ -164,7 +158,7 @@ color:white;
 
 }
 
-.SearchPictures7 img{
+.SearchPictures7 img {
     width: 40px;
     height: 40px;
     top: 62%;
@@ -173,7 +167,7 @@ color:white;
 
 }
 
-.SearchPictures8 img{
+.SearchPictures8 img {
     width: 40px;
     height: 40px;
     top: 68%;
@@ -182,7 +176,7 @@ color:white;
 
 }
 
-.SearchPictures9 img{
+.SearchPictures9 img {
     width: 40px;
     height: 40px;
     top: 73%;
@@ -191,11 +185,11 @@ color:white;
 
 }
 
-.Home
-{   top:0px;
+.Home {
+    top: 0px;
     left: 0px;
     position: absolute;
-    width:80px;
+    width: 80px;
     height: 40px;
     border: none;
     outline: none;
