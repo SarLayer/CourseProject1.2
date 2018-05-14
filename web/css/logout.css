@@ -1,5 +1,5 @@
-body{
-    margin :0;
+body {
+    margin: 0;
     padding: 0;
     background: url(../pictures/back.jpg);
     background-size: cover;
@@ -8,49 +8,42 @@ body{
 
 }
 
-.logout
-{
+.logout {
 
     width: 1350px;
     height: 40px;
     background: #ea2022;
     color: #fff;
     top: 0px;
-    left:0px;
+    left: 0px;
     position: absolute;
 
 }
 
-.logout1
-{
+.logout1 {
 
     background: #ea2022;
     color: #fff;
     top: 0px;
-    left:1200px;
+    left: 1200px;
     position: absolute;
     font-size: 30px;
 
 }
 
-
-.tree
-{
+.tree {
     width: 1px;
     height: 500px;
 
-
     top: 50%;
-    left:60%;
+    left: 60%;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 
-    padding: 70px 30px ;
+    padding: 70px 30px;
 }
 
-
-
-.xMass{
+.xMass {
     width: 400px;
     height: 600px;
 
@@ -59,122 +52,109 @@ body{
     left: calc(50% - 50px);
 }
 
-
-
-.Decoration
-{
+.Decoration {
     width: 300px;
     height: 350px;
     background: #ea2022;
     border-radius: 20px;
     top: 20%;
-    left:4%;
+    left: 4%;
     position: absolute;
 
 }
 
-
-
-
-.Ball1
-{
+.Ball1 {
     width: 70px;
     height: 90px;
     left: 0px;
-    top:10%;
+    top: 10%;
     position: absolute;
 
 }
 
-.Candy1
-{
+.Candy1 {
     width: 70px;
     height: 90px;
     left: 0px;
-    top:150px;
+    top: 150px;
     position: absolute;
 
 }
-.Flashlight1
-{
+
+.Flashlight1 {
     width: 90px;
     height: 90px;
     left: 0px;
-    top:250px;
+    top: 250px;
     position: absolute;
 
 }
 
-.Ball2
-{
+.Ball2 {
     width: 70px;
     height: 90px;
     left: 100px;
-    top:10%;
+    top: 10%;
     position: absolute;
 
 }
 
-.Candy2
-{
+.Candy2 {
     width: 70px;
     height: 90px;
     left: 100px;
-    top:150px;
+    top: 150px;
     position: absolute;
 
 }
-.Flashlight2
-{
+
+.Flashlight2 {
     width: 90px;
     height: 90px;
     left: 100px;
-    top:250px;
+    top: 250px;
     position: absolute;
 
 }
 
-.Ball3
-{
+.Ball3 {
     width: 70px;
     height: 90px;
     left: 200px;
-    top:10%;
+    top: 10%;
     position: absolute;
 
 }
 
-.Candy3
-{
+.Candy3 {
     width: 70px;
     height: 90px;
     left: 200px;
-    top:150px;
+    top: 150px;
     position: absolute;
 
 }
-.Flashlight3
-{
+
+.Flashlight3 {
     width: 90px;
     height: 90px;
     left: 200px;
-    top:250px;
+    top: 250px;
     position: absolute;
 
 }
 
-
-.Choice{
+.Choice {
     width: 300px;
-    height:80px;
+    height: 80px;
     top: 12%;
-    left:4%;
+    left: 4%;
     position: absolute;
     background: blue;
     border-radius: 20px;
 }
 
-.Choice h1{
+.Choice h1 {
 
     font-size: 30px;
     position: center;
@@ -184,16 +164,17 @@ body{
 
 }
 
-.InfAboutTree{
+.InfAboutTree {
     width: 200px;
-    height:80px;
+    height: 80px;
     top: 12%;
-    left:30%;
+    left: 30%;
     position: absolute;
     background: blue;
     border-radius: 20px;
 }
-.InfAboutTree h1{
+
+.InfAboutTree h1 {
 
     font-size: 20px;
     position: center;
@@ -224,16 +205,16 @@ body{
 
 }*/
 
-.Pictures1 img{
-     width: 40px;
-     height: 40px;
-     top: 24%;
-     left: 69%;
-     position: absolute;
+.Pictures1 img {
+    width: 40px;
+    height: 40px;
+    top: 24%;
+    left: 69%;
+    position: absolute;
 
- }
+}
 
-.Pictures2 img{
+.Pictures2 img {
     width: 40px;
     height: 40px;
     top: 34%;
@@ -241,7 +222,7 @@ body{
     position: absolute;
 }
 
-.Pictures3 img{
+.Pictures3 img {
     width: 40px;
     height: 40px;
     top: 41%;
@@ -250,7 +231,7 @@ body{
 
 }
 
-.Pictures4 img{
+.Pictures4 img {
     width: 40px;
     height: 40px;
     top: 49%;
@@ -258,7 +239,8 @@ body{
     position: absolute;
 
 }
-.Pictures5 img{
+
+.Pictures5 img {
     width: 40px;
     height: 40px;
     top: 53%;
@@ -266,7 +248,8 @@ body{
     position: absolute;
 
 }
-.Pictures6 img{
+
+.Pictures6 img {
     width: 40px;
     height: 40px;
     top: 57%;
@@ -275,25 +258,25 @@ body{
 
 }
 
-.Pictures7 img{
-     width: 40px;
-     height: 40px;
-     top: 62%;
-     left: 76%;
-     position: absolute;
+.Pictures7 img {
+    width: 40px;
+    height: 40px;
+    top: 62%;
+    left: 76%;
+    position: absolute;
 
- }
+}
 
-.Pictures8 img{
-     width: 40px;
-     height: 40px;
-     top: 68%;
-     left: 70%;
-     position: absolute;
+.Pictures8 img {
+    width: 40px;
+    height: 40px;
+    top: 68%;
+    left: 70%;
+    position: absolute;
 
- }
+}
 
-.Pictures9 img{
+.Pictures9 img {
     width: 40px;
     height: 40px;
     top: 73%;
@@ -302,25 +285,20 @@ body{
 
 }
 
-
-
-.search
-{
-    top:0px;
-    left:30%;
+.search {
+    top: 0px;
+    left: 30%;
     position: absolute;
     width: 300px;
     height: 40px;
 
-
 }
 
-.search input[type = "submit"]
-{
-    top:0px;
+.search input[type = "submit"] {
+    top: 0px;
     left: 170px;
     position: absolute;
-    width:80px;
+    width: 80px;
     height: 40px;
     border: none;
     outline: none;
@@ -330,34 +308,32 @@ body{
 
 }
 
-.search input[type = "submit"]:hover
-{
+.search input[type = "submit"]:hover {
     cursor: pointer;
     background: green;
 
-
 }
 
-.search input[type = "text"]
-{
+.search input[type = "text"] {
 
-    width:170px;
+    width: 170px;
     height: 40px;
-     position: absolute;
+    position: absolute;
     font-size: 16px;
 
 }
-.Information{
-    top:20%;
-    left:30%;
-    width:200px;
-    height:350px;
+
+.Information {
+    top: 20%;
+    left: 30%;
+    width: 200px;
+    height: 350px;
     position: absolute;
     background: #ea2022;
     border-radius: 20px;
 }
 
-.Information h1{
+.Information h1 {
 
     font-size: 15px;
     top: 10%;
@@ -367,50 +343,36 @@ body{
 
 }
 
-
-
-
-
-
-
-
-.delete
-{
-    top:0px;
-    left:70%;
+.delete {
+    top: 0px;
+    left: 70%;
     position: absolute;
     width: 270px;
     height: 40px;
-    z-index:999;
-
-
+    z-index: 999;
 
 }
 
-.name
-{
+.name {
     height: 40px;
     width: 100px;
 
-    top:-40px;
-    left:10%;
+    top: -40px;
+    left: 10%;
     position: absolute;
 
 }
 
-.name
-{
+.name {
     font-size: 24px;
-    color:white;
+    color: white;
 }
 
-
-.delete input[type = "submit"]
-{
-    top:0px;
+.delete input[type = "submit"] {
+    top: 0px;
     left: 170px;
     position: absolute;
-    width:80px;
+    width: 80px;
     height: 40px;
     border: none;
     outline: none;
@@ -420,37 +382,32 @@ body{
 
 }
 
-.delete input[type = "submit"]:hover
-{
+.delete input[type = "submit"]:hover {
     cursor: pointer;
     background: green;
 
-
 }
 
-.delete input[type = "text"]
-{
+.delete input[type = "text"] {
 
-    width:170px;
+    width: 170px;
     height: 40px;
     position: absolute;
     font-size: 16px;
 
 }
 
-.Error
-{
+.Error {
     width: 300px;
-    height:80px;
-    top:5%;
-    left:50%;
+    height: 80px;
+    top: 5%;
+    left: 50%;
     position: absolute;
     border-radius: 20px;
 
-
 }
 
-.Error h1{
+.Error h1 {
 
     font-size: 30px;
     position: center;
@@ -460,17 +417,16 @@ body{
     z-index: 100;
 }
 
-
-
-.SearchYourselfOrAbsent{
-    top:0px;
-    left:700px;
-    height:10px ;
-    width:200px;
+.SearchYourselfOrAbsent {
+    top: 0px;
+    left: 700px;
+    height: 10px;
+    width: 200px;
     position: absolute;
 
 }
-.SearchYourselfOrAbsent h1{
+
+.SearchYourselfOrAbsent h1 {
     font-size: 16px;
 
 }

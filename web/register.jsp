@@ -10,7 +10,7 @@
 <head>
     <title>Registation</title>
 </head>
-<link rel="stylesheet" type = "text/css" href = "css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <body>
 
 <div class="loginbox">
@@ -18,13 +18,13 @@
     <h1>Register Here</h1>
     <form action="LoginRegister" method="post">
         <p>Username</p>
-        <input type = "text" name = "username" placeholder="Enter Username">
+        <input type="text" name="username" placeholder="Enter Username">
         <p>Password</p>
-        <input type = "password" name ="password1" placeholder="Enter Password">
+        <input type="password" name="password1" placeholder="Enter Password">
         <p>Re-Password</p>
-        <input type = "password" name = "password2" placeholder="Enter Password">
+        <input type="password" name="password2" placeholder="Enter Password">
 
-        <input type = "submit" name = "register" value="Registration">
+        <input type="submit" name="register" value="Registration">
         <a href="login.jsp">Login</a>
 
 

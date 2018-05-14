@@ -9,7 +9,6 @@ public class Customer {
         this.password = password;
     }
     
-
     
     public String getLogin() {
         return login;
@@ -27,9 +26,5 @@ public class Customer {
         this.password = password;
     }
     
-   
     
-  
-    
-  
 }
