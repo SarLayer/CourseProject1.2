@@ -15,7 +15,7 @@ public class Counter {
             
             price += decoration.getPrice();
         }
-        return price;
+        return Rounder.round(price);
     }
     
     public static double countPriceOfBall(Map<Integer, Decoration> dictionary) {
@@ -25,7 +25,7 @@ public class Counter {
                 price += decoration.getPrice();
             }
         }
-        return price;
+        return Rounder.round(price);
         
     }
     
@@ -36,7 +36,7 @@ public class Counter {
                 price += decoration.getPrice();
             }
         }
-        return price;
+        return Rounder.round(price);
         
     }
     
@@ -47,7 +47,7 @@ public class Counter {
                 price += decoration.getPrice();
             }
         }
-        return price;
+        return Rounder.round(price);
         
     }
     
@@ -58,7 +58,7 @@ public class Counter {
                 count += 1;
             }
         }
-        return (count / dictionary.size());
+        return Rounder.round((count / dictionary.size()));
     }
     
     public static double countPercentOfCandy(Map<Integer, Decoration> dictionary) {
@@ -68,7 +68,7 @@ public class Counter {
                 count += 1;
             }
         }
-        return (count / dictionary.size());
+        return Rounder.round((count / dictionary.size()));
     }
     
     public static double countPercentOfFlashlight(Map<Integer, Decoration> dictionary) {
@@ -78,6 +78,6 @@ public class Counter {
                 count += 1;
             }
         }
-        return (count / dictionary.size());
+        return Rounder.round((count / dictionary.size()));
     }
 }

@@ -2,6 +2,7 @@ package by.bntu.fitr.povt.sunRevival.servlets;
 
 import by.bntu.fitr.povt.sunRevival.Logic.Counter;
 import by.bntu.fitr.povt.sunRevival.Logic.Logic;
+import by.bntu.fitr.povt.sunRevival.Logic.Rounder;
 import by.bntu.fitr.povt.sunRevival.login.ConnectionProvider;
 import by.bntu.fitr.povt.sunRevival.login.Customer;
 
@@ -48,13 +49,13 @@ public class LoginRegister extends HttpServlet {
                     }
                     request.setAttribute("name", LoginRegister.customer.getLogin());
                     
-                    request.setAttribute("priceOfTree", "Price of tree " + String.format("%.2f", Counter.countPriceOfTree(Logic.getDictionary())));
-                    request.setAttribute("priceOfBalls", "Price of Balls " + String.format("%.2f", Counter.countPriceOfBall(Logic.getDictionary())));
-                    request.setAttribute("priceOfCandies", "Price of Candies " + String.format("%.2f", Counter.countPriceOfCandy(Logic.getDictionary())));
-                    request.setAttribute("priceOfFlashlights", "Price of Flashlights " + String.format("%.2f", Counter.countPriceOfFlashLight(Logic.getDictionary())));
-                    request.setAttribute("percentOfBalls", "Percent of Balls " + String.format("%.2f", Counter.countPercentOfBall(Logic.getDictionary())));
-                    request.setAttribute("percentOfCandies", "Percent of Candies " + String.format("%.2f", Counter.countPercentOfCandy(Logic.getDictionary())));
-                    request.setAttribute("percentOfFlashlights", "Percent of Flashlight " + String.format("%.2f", Counter.countPercentOfFlashlight(Logic.getDictionary())));
+                    request.setAttribute("priceOfTree", "Price of tree " + Rounder.round(Counter.countPriceOfTree(Logic.getDictionary())));
+                    request.setAttribute("priceOfBalls", "Price of Balls " + Rounder.round( Counter.countPriceOfBall(Logic.getDictionary())));
+                    request.setAttribute("priceOfCandies", "Price of Candies " + Rounder.round(Counter.countPriceOfCandy(Logic.getDictionary())));
+                    request.setAttribute("priceOfFlashlights", "Price of Flashlights " + Rounder.round( Counter.countPriceOfFlashLight(Logic.getDictionary())));
+                    request.setAttribute("percentOfBalls", "Percent of Balls " + Rounder.round( Counter.countPercentOfBall(Logic.getDictionary())));
+                    request.setAttribute("percentOfCandies", "Percent of Candies " + Rounder.round( Counter.countPercentOfCandy(Logic.getDictionary())));
+                    request.setAttribute("percentOfFlashlights", "Percent of Flashlight " + Rounder.round( Counter.countPercentOfFlashlight(Logic.getDictionary())));
                     request.getRequestDispatcher("welcome.jsp").forward(request, response);
                 } else {
                     request.setAttribute("message", "Data Not Found");
