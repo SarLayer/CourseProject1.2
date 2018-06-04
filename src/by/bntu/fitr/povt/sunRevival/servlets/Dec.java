@@ -52,7 +52,7 @@ public class Dec extends HttpServlet {
                     }
                 } catch (Exception e) {
                     request.setAttribute("SearchYourselfOrAbsent", "Enter number");
-                    request.getRequestDispatcher("welcome.jsp").forward(request, response);
+                    
                 }
                 
             }
